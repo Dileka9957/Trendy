@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "691116299419",
+    "project_id": "trend-51f03",
+    "storage_bucket": "trend-51f03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691116299419:android:adc63c602e6148648de23e",
+        "android_client_info": {
+          "package_name": "com.example.shopx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691116299419-c6v0jf31c3kvuiprts8v005pbeik6dee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shopx",
+            "certificate_hash": "814394e331306fe07b2a9d5471a50ac1347f2513"
+          }
+        },
+        {
+          "client_id": "691116299419-sg1djujfarv06f378ei00knqob1f2b7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQCi8gvYf9FPwi5n1wEH3dJ5mUy_r-Nzg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691116299419-sg1djujfarv06f378ei00knqob1f2b7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shopx">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShopX">
+        <activity android:name=".OrderActivity"/>
+        <activity android:name=".delivery.AddDelivery"/>
+        <activity android:name=".delivery.UpdateActivity"/>
+        <activity android:name=".delivery.StatusActivity"/>
+        <activity android:name=".feedback.AddRate"/>
+        <activity android:name=".feedback.View_Rates"/>
+        <activity android:name=".feedback.RateDetails"/>
+        <activity android:name=".delivery.Track"/>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".ItemList"/>
+        <activity android:name=".Homepage"/>
+        <activity android:name=".userManage.Customer_profile"/>
+        <activity android:name=".userManage.Customer_profile_up"/>
+        <activity android:name=".itemManage.AddItem"/>
+        <activity android:name=".View_Additems"/>
+        <activity android:name=".itemManage.Update_item"/>
+        <activity android:name=".userManage.Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

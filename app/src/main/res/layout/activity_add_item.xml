@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="213dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/id_tv"
+            android:layout_width="264dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="1dp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/start_selling_a_product"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/et_titleF"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:hint="@string/et_titleF" />
+
+        <EditText
+            android:id="@+id/et_descriptionF"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/et_descriptionF" />
+
+        <EditText
+            android:id="@+id/et_price"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/et_price" />
+
+        <EditText
+            android:id="@+id/et_contactF"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:hint="@string/et_contactF" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="122dp"
+            android:layout_height="26dp"
+            tools:srcCompat="@drawable/ebd1386a_737a_467b_952a_a79f06c08e3b" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="145dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="19dp"
+            android:layout_marginTop="13dp"
+            android:text="@string/textView1" />
+
+        <Button
+            android:id="@+id/et_btnF"
+            android:layout_width="140dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:background="#FF5722"
+            android:text="@string/et_btnF"
+            app:backgroundTint="#FF5722" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

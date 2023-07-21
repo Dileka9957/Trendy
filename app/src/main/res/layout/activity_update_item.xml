@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".itemManage.Update_item">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="213dp"
+            android:layout_height="44dp"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/id_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_marginStart="1dp"
+            android:fontFamily="sans-serif-black"
+            android:text="Update Trend Item"
+            android:textSize="34sp" />
+
+        <EditText
+            android:id="@+id/et_upitme_name"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="11dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:hint="@string/et_titleF" />
+
+        <EditText
+            android:id="@+id/et_upitme_price"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/et_price" />
+
+        <EditText
+            android:id="@+id/et_upitme_about"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/et_contactF" />
+
+        <EditText
+            android:id="@+id/et_upitme_des"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="19dp"
+            android:ems="10"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:hint="@string/etDescription" />
+
+
+        <Button
+            android:id="@+id/bt_upitme_update"
+            android:layout_width="140dp"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/purple_500"
+            android:bottomLeftRadius="16dp"
+            android:bottomRightRadius="16dp"
+            android:onClick="updateItem"
+            android:text="Update"
+            app:backgroundTint="@color/purple_200" />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
